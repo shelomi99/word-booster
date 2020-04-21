@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".TranslatePhrase">
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/regular"
+        android:text="@string/translate_any_phrase"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50dp" />
+
+    <SearchView
+        android:id="@+id/Phrase_filter"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/list_view_border"
+        android:queryHint="@string/search_bar" />
+
+    <ListView
+        android:id="@+id/word_translate_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="313dp"
+        android:layout_above="@+id/bottom_container_language_translate"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        android:layout_marginBottom="10dp"
+        android:choiceMode="singleChoice" />
+
+    <include
+        android:id="@+id/bottom_container_language_translate"
+        layout="@layout/translate_language_bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>

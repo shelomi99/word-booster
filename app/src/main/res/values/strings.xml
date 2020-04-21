@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Word Booster</string>
+    <string name="app_heading">Word Booster</string>
+    <string name="app_subheading">Learn New Languages</string>
+    <string name="add_phase">Add Phrase</string>
+    <string name="display_phase">Display Phrase</string>
+    <string name="edit_phase">Edit Phrase</string>
+    <string name="language_subscription">Language subscription</string>
+    <string name="translate">Translate</string>
+    <string name="view_word">Translated word is</string>
+    <string name="enter_a_phrase">Choose a phrase</string>
+    <string name="save">Save</string>
+    <string name="save_word_heading">Add any phrase or a word and save it</string>
+    <string name="enter_phrase">Enter Phrase</string>
+    <string name="edit">Edit</string>string>
+    <string name="subscibe_languages">Subscibe Languages</string>
+    <string name="update">Update</string>
+    <string name="text_speech_apikey">hMVdg30tpp3NfLqyIuBabnHXZAvAUy12s7Fk7X9Yq0nV</string>
+    <string name="text_speech_url">https://api.eu-gb.text-to-speech.watson.cloud.ibm.com/instances/b4bbae55-1f14-49fb-ad4c-980b69e310e6</string>
+    <string name="language_translator_apikey">PJo30m_n7Lv5zMmGIYKqUaB7JzUUo876HaHMVnF96IYs</string>
+    <string name="language_translator_url">https://api.eu-gb.language-translator.watson.cloud.ibm.com/instances/cd6913c9-eacd-4c92-9ef7-667ec235b3c6</string>
+    <string name="translate_any_phrase">Translate any Phrase</string>
+    <string name="search_bar">Filter by name</string>
+    <string name="subscribe_languages">Subscribe any language French, Spanish plus 70 more.</string>
+    <string name="translated_words">Translated Phrases</string>
+    <string name="see_words">Click on a language to see your translated words</string>
+    <string name="delete">delete</string>
+</resources>
