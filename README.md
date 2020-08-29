@@ -1,2 +1,3 @@
 # A Language Translater app
- Mobile Development CW-2
+ Android mobile application to translate sentences into any language.
+[picture](app/src/main/res/drawable/translatorImg.png)
